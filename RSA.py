@@ -29,8 +29,8 @@ def main():
     pt = pow(ct, d, n)
     print( "pt: " + str(pt) )
     f"{pt:x}"
-    flag =  bytes.fromhex(f"{pt:x}").decode()
-    print( "flag: " + str(flag) )
+  #  flag =  bytes.fromhex(f"{pt:x}").decode() # USE THIS IF YOU WANT TO DECODE TO HEX (HTB FLAG!)
+  #  print( "flag: " + str(flag) )             # USE THIS IF YOU WANT TO DECODE TO HEX (HTB FLAG!)
 
 if __name__ == "__main__":
     main()
